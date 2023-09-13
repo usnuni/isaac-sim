@@ -13,12 +13,14 @@ nvidia-smi
 
 ### Anaconda python ver=3.10
 
-```
+<pre>
+<code>
 sudo apt install curl bzip2 -y  
 curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2023.03-0-Linux-x86_64.sh  
 sha256sum anaconda.sh  
 bash anaconda.sh  
-```
+</code>
+</pre>
 
 ### Isaac Sim 2022.2.1
 <https://www.nvidia.com/en-us/omniverse/download/#ov-download>
