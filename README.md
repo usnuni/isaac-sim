@@ -4,7 +4,8 @@
 
 ### NVIDIA-SMI, Driver Version 535.54.03 / CUDA Version: 12.2
 ```
-sudo add-apt-repository ppa:graphics-drivers/ppa  sudo apt update  
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt update  
 sudo apt-get install nvidia-driver-버전(535-server)  
 sudo reboot  
 nvidia-smi  
