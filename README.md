@@ -2,8 +2,6 @@
 
 ## 환경 설정
 
----
-
 ### NVIDIA-SMI, Driver Version 535.54.03 / CUDA Version: 12.2
 
   sudo add-apt-repository ppa:graphics-drivers/ppa
