@@ -65,6 +65,9 @@ docker compose version
 wget https://raw.githubusercontent.com/ros-planning/moveit2_tutorials/main/.docker/docker-compose.yml
 DOCKER_IMAGE=rolling-tutorial docker compose run --rm --name moveit2_container gpu
 ```
+- E: Failed to initialize NVML: Driver/library version mismatch
+<https://dfso2222.tistory.com/69>
+
 - enter the container through another terminal
 ```
 docker exec -it moveit2_container /bin/bash
