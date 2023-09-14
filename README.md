@@ -38,8 +38,28 @@ bash anaconda.sh
 ```
 apt install fuse libfuse2
 ```
+### ROS2 humble
+<https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html>
+- have to run this code every time start ROS
+```
+source /opt/ros/humble/setup.bash
+```
 ### Docker
+<https://docs.docker.com/engine/install/ubuntu/>
 #### Nvidia drivers for Docker
 
 ### Moveit
 #### Docker MoveIt2 설치
+
+
+
+
+# Errors
+1. sudo apt update
+```
+W: https://nvidia.github.io/libnvidia-container/stable/ubuntu18.04/amd64/InRelease: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.
+```
+
+
+
+
