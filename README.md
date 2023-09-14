@@ -48,6 +48,16 @@ source /opt/ros/humble/setup.bash
 
 ### 5 Docker [link](https://docs.docker.com/engine/install/ubuntu)
 #### 5.1 Nvidia drivers for Docker
+```
+sudo apt install nvidia-container-toolkit
+```
+#### 5.2 Docker compose [link](https://docs.docker.com/compose/install/linux/#install-using-the-repository)
+```
+sudo apt install docker-compose-plugin
+# verify
+docker compose version
+> Docker Compose version v2.21.0
+```
 
 ### 6 Moveit
 #### 6.1 Docker MoveIt2 설치
