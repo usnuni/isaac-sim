@@ -32,17 +32,17 @@ sha256sum anaconda.sh
 bash anaconda.sh  
 </code>
 </pre>
-### Isaac Sim 2022.2.1 [link]<https://www.nvidia.com/en-us/omniverse/download/#ov-download>
+### Isaac Sim 2022.2.1 (link)<https://www.nvidia.com/en-us/omniverse/download/#ov-download>
 - E: AppImages require FUSE to run.
 ```
 apt install fuse libfuse2
 ```
-### ROS2 humble [link]<https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html>
+### ROS2 humble (link)<https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html>
 - have to run this code every time start ROS
 ```
 source /opt/ros/humble/setup.bash
 ```
-### Docker [link]<https://docs.docker.com/engine/install/ubuntu/>
+### Docker (link)<https://docs.docker.com/engine/install/ubuntu/>
 #### Nvidia drivers for Docker
 
 ### Moveit
