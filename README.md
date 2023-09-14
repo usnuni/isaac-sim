@@ -18,8 +18,10 @@ wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/
 sudo dpkg -i cuda-keyring_1.1-1_all.deb
 sudo apt update
 sudo apt -y install cuda
-# install nvidia-docker2
+
+# install packages
 sudo apt install nvidia-docker2
+sudo apt install nvidia-container-toolkit
 ```
 ### Anaconda python ver=3.10
 <pre>
