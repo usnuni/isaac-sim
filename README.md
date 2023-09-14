@@ -61,6 +61,14 @@ docker compose version
 
 ### 6 Moveit
 #### 6.1 Docker MoveIt2 설치
+```
+wget https://raw.githubusercontent.com/ros-planning/moveit2_tutorials/main/.docker/docker-compose.yml
+DOCKER_IMAGE=rolling-tutorial docker compose run --rm --name moveit2_container gpu
+```
+```
+# If you wish to enter the container through another terminal, use
+docker exec -it moveit2_container /bin/bash
+```
 
 
 
