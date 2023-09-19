@@ -81,6 +81,16 @@ source /opt/ros/humble/setup.bash
 # same as link
 ```
 
+https://docs.omniverse.nvidia.com/isaacsim/latest/install_ros.html#isaac-sim-app-install-ros
+
+To start using the ROS2 packages built within this workspace, open a new terminal and source the workspace with the following commands:
+```
+    source /opt/ros/foxy/setup.bash
+    cd foxy_ws
+    source install/local_setup.bash
+```
+
+
 
 
 # Errors
