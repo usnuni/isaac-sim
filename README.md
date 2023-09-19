@@ -120,3 +120,5 @@ conda install -c auto catkin_pkg <failed
 sudo cp -r /home/ari/anaconda3/envs/isaac/lib/python2.7/site-packages/catkin_pkg /opt/ros/humble/lib/python3.10/site-packages/ < failed
 ```
 
+3. 1 package had stderr output: isaac_ros_navigation_goal  
+> ignoreed..
