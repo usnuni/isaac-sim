@@ -122,3 +122,13 @@ sudo cp -r /home/ari/anaconda3/envs/isaac/lib/python2.7/site-packages/catkin_pkg
 
 3. 1 package had stderr output: isaac_ros_navigation_goal  
 > ignoreed..
+
+
+4. ros2 bridge connect error
+```
+unset LD_LIBRARY_PATH
+export FASTRTPS_DEFAULT_PROFILES_FILE=~/.ros/fastdds.xml
+```
+
+
+
