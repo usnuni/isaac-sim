@@ -2,11 +2,12 @@
 
 ## 코드 실행
 
-- 아나콘다(python==3.7.16) 환경에서 아래 코드 실행 후 py 파일 실행해야 정상 작동
+- 아나콘다(python==3.7.16) 환경에서 아래 코드 실행 후 동일 터미널에서 경로 변경 및 py 파일 실행해야 정상 작동(새 터미널창으로 하면 작동 안 됨)
 ```
 cd ~/.local/share/ov/pkg/isaac_sim-2022.2.1
 source setup_conda_env.sh
-cd ~/{py_file_path}
+#cd ~/{py_file_path}
+cd ~/isaac_sample
 ```
 
 
