@@ -4,9 +4,9 @@
 
 - 아나콘다(python==3.7.16) 환경에서 아래 코드 실행 후 py 파일 실행해야 정상 작동
 ```
- ~/.local/share/ov/pkg/isaac_sim-2022.2.1
+cd ~/.local/share/ov/pkg/isaac_sim-2022.2.1
 source setup_conda_env.sh
-~/{py_file_path}
+cd ~/{py_file_path}
 ```
 
 
